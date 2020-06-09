@@ -1,17 +1,11 @@
 package com.eshop;
 
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.stereotype.Component;
 
-import com.eshop.config.AppConfig;
 import com.eshop.dao.ProductDao;
-import com.eshop.model.Category;
-import com.eshop.model.OrderDetail;
 import com.eshop.model.Product;
 import com.eshop.repository.ProductRepository;
 
